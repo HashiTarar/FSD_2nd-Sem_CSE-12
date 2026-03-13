@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student Marks System</title>
+<link rel="stylesheet" href="Assessment.css">
+</head>
+
+<body>
+
+<h1>Student Marks Management</h1>
+
+<div class="form">
+<input type="text" id="name" placeholder="Student Name">
+<input type="text" id="role" placeholder="Roll Number">
+<input type="number" id="math" placeholder="Math Marks">
+<input type="number" id="science" placeholder="Science Marks">
+<input type="number" id="english" placeholder="English Marks">
+
+<button onclick="addStudent()">Add Student</button>
+</div>
+
+<div class="buttons">
+<button onclick="displayStudents()">Display All Students</button>
+<button onclick="showTotals()">Calculate Totals</button>
+<button onclick="showAverage()">Calculate Averages</button>
+<button onclick="showTopStudents()">Above 80 Average</button>
+<button onclick="showFailed()">Failed Students</button>
+<button onclick="countStudents()">Total Students</button>
+</div>
+
+<div id="output"></div>
+
+<script src="Assessment.js"></script>
+
+</body>
+</html>
